@@ -1,0 +1,322 @@
+
+.right-side {
+  position: absolute;
+width: 852px;
+height: 1024px;
+left: 588px;
+top: 0px;
+
+/* Background */
+
+background: #F5F5F5;
+}
+.left-side1 {
+  position: absolute;
+width: 588px;
+height: 1024px;
+left: 0px;
+top: 0px;
+
+background: #000000;
+}
+.board1,
+.card15,
+.left-side1 {
+  position: absolute;
+}
+.board1 {
+  top: 464px;
+  left: 171px;
+  color: var(--color-white);
+}
+.card15 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+}
+.card14,
+.input-field1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 385px;
+  height: 317px;
+}
+.input-field1 {
+  border: 0;
+  background-color: var(--background);
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-3xs);
+}
+.input-field {
+  top: 59px;
+  left: 30px;
+  width: 325px;
+  height: 40px;
+}
+.div14,
+.input,
+.input-field {
+  position: absolute;
+}
+.input {
+  border: 0;
+  background-color: var(--field-color-darker);
+  height: 11.24%;
+  width: 84.42%;
+  top: 41.57%;
+  right: 7.79%;
+  bottom: 47.19%;
+  left: 7.79%;
+  border-radius: var(--br-3xs);
+}
+.div14 {
+  top: 44.38%;
+  left: 11.69%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: left;
+}
+.login-form-child {
+  position: absolute;
+  height: 5.34%;
+  width: 0.26%;
+  top: 44.52%;
+  right: 68.7%;
+  bottom: 50.14%;
+  left: 31.04%;
+  border-right: 1px solid var(--icon);
+  box-sizing: border-box;
+}
+.button-primary1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-black);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+}
+.button-primary,
+.sign-in1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 325px;
+  height: 40px;
+}
+.sign-in1 {
+  top: 9px;
+  left: 112.58px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: center;
+  width: 101.96px;
+  height: 21.71px;
+}
+.button-sign-in {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 247px;
+  left: 30px;
+  width: 325px;
+  height: 40px;
+}
+.email-address {
+  top: 30px;
+  left: 30px;
+  color: var(--color-black);
+}
+.email-address,
+.forgot-password,
+.johndoegmailcom,
+.password {
+  position: absolute;
+  font-size: var(--font-size-base);
+  font-family: var(--font-lato);
+  text-align: left;
+  cursor: pointer;
+}
+.johndoegmailcom,
+.password {
+  color: var(--color-black);
+}
+.johndoegmailcom {
+  top: 69px;
+  left: 45px;
+}
+.password {
+  top: 119px;
+  left: 30px;
+}
+.forgot-password {
+  top: 208px;
+  left: 31px;
+  color: var(--link);
+}
+.dont-have-an {
+  color: var(--secondary-text);
+}
+.register-here {
+  color: var(--link);
+  cursor: pointer;
+}
+.dont-have-an-container {
+  position: absolute;
+  top: 337px;
+  left: 62px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-lato);
+  text-align: center;
+}
+.login-form {
+  position: absolute;
+  top: 409px;
+  left: 832px;
+  width: 385px;
+  height: 356px;
+}
+.button1,
+.white1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-white);
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-3xs);
+}
+.white1 {
+  width: 180px;
+  height: 30px;
+}
+.sign-in-with {
+  position: absolute;
+  top: 8px;
+  left: 43px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-montserrat);
+  color: var(--secondary-text);
+  text-align: center;
+}
+.google-icon-1 {
+  position: absolute;
+  top: 8px;
+  left: 19px;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+}
+.button2,
+.google-sign-in,
+.white2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: absolute;
+}
+.google-sign-in {
+  background-color: transparent;
+  top: 354px;
+  left: 832px;
+  width: 180px;
+  height: 30px;
+}
+.button2,
+.white2 {
+  top: 0;
+  left: 0;
+}
+.button2 {
+  background-color: var(--color-white);
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+}
+.white2 {
+  background-color: transparent;
+  width: 180px;
+  height: 30px;
+}
+.sign-in-with1 {
+  position: absolute;
+  top: 8px;
+  left: 46px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-montserrat);
+  color: var(--secondary-text);
+  text-align: center;
+}
+.apple-1-icon {
+  position: absolute;
+  top: 7px;
+  left: 24px;
+  width: 11.5px;
+  height: 14px;
+  overflow: hidden;
+}
+.apple-sign-in {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 354px;
+  left: 1037px;
+  width: 180px;
+  height: 30px;
+}
+.sign-in-to,
+.sign-in2 {
+  position: absolute;
+  left: 832px;
+}
+.sign-in2 {
+  top: 260px;
+  font-size: var(--font-size-17xl);
+}
+.sign-in-to {
+  top: 309px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-lato);
+}
+.sign-in {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 72px;
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
